@@ -9,9 +9,9 @@ ARGS:
  nw: 4
  save_visualization_on_img: True
  mano_mesh_root_align: True
- renderer: 'pyrender'
- focal_length: 1265
- FOV: 22.5
+ renderer: 'pytorch3d'
+ focal_length: 450
+ FOV: 60
 
  mesh_cloth: 'ghostwhite'  #'LightCyan'
 
